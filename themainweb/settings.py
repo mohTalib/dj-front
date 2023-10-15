@@ -29,7 +29,10 @@ SECRET_KEY = 'django-insecure-=*s-59h4q^et##qu2tlvzl+qh5w1+7a56ztz2p6vy@n$pwdjt)
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CORS_ALLOWED_ORIGINS = [
+    'https://home-opp-club.com',
+    'http://127.0.0.1',
+]
 
 
 
@@ -47,7 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'club',
     'rest_framework',
-    
+    "corsheaders",
     
  
 ]
@@ -60,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
 ]
 
 ROOT_URLCONF = 'themainweb.urls'
