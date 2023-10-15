@@ -31,9 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
     'https://home-opp-club.com',
-    '127.0.0.1',
-    'localhost',
-    
+    '127.0.0.1', 
 ]
 
 
