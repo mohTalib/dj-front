@@ -29,7 +29,11 @@ SECRET_KEY = 'django-insecure-=*s-59h4q^et##qu2tlvzl+qh5w1+7a56ztz2p6vy@n$pwdjt)
 DEBUG = True
 
 ALLOWED_HOSTS = ['dj-front.onrender.com']
-
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost',
+    'http://127.0.0.1',
+    'http://0.0.0.0',
+]
 
 
 CORS_ALLOW_CREDENTIALS = True
@@ -46,7 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'club',
     'rest_framework',
-   
+   'corsheaders',
     
  
 ]
@@ -59,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     
 ]
 
