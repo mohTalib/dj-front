@@ -28,12 +28,12 @@ SECRET_KEY = 'django-insecure-=*s-59h4q^et##qu2tlvzl+qh5w1+7a56ztz2p6vy@n$pwdjt)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dj-front.onrender.com']
+ALLOWED_HOSTS = ['dj-front.onrender.com','teal-starlight-3b188a.netlify.app']
 CORS_ALLOWED_ORIGINS = [
     'http://localhost',
     'http://127.0.0.1',
     'http://0.0.0.0',
-    'peaceful-sfogliatella-abab35.netlify.app',
+    'teal-starlight-3b188a.netlify.app',
 ]
 
 
