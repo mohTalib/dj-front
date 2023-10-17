@@ -33,6 +33,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost',
     'http://127.0.0.1',
     'http://0.0.0.0',
+    'peaceful-sfogliatella-abab35.netlify.app',
 ]
 
 
