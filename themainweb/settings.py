@@ -93,11 +93,7 @@ WSGI_APPLICATION = 'themainweb.wsgi.application'
 
 ROOT_URLCONF = 'themainweb.urls'
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
-}
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
