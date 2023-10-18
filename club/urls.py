@@ -1,6 +1,8 @@
 from django.urls import path
 
 from .views import UserRegisterView, UserLoginView
+from django.conf import settings
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 
 from . import views
@@ -33,3 +35,4 @@ urlpatterns = [
     
     
 ]
+urlpatterns += staticfiles_urlpatterns()
