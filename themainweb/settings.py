@@ -33,7 +33,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost',
     'http://127.0.0.1',
     'http://0.0.0.0',
-    'https://react-code-5q82.onrender.com',
+    'https://react-code-bydq.onrender.com',
     'https://opportunity-club.com',
 ]
 
