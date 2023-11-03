@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=*s-59h4q^et##qu2tlvzl+qh5w1+7a56ztz2p6vy@n$pwdjt)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['dj-front.onrender.com', 'home-opp-club.com']
 CORS_ALLOWED_ORIGINS = [
