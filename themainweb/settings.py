@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'club',
     'rest_framework',
-   'corsheaders',
+    'corsheaders',
     
  
 ]
